@@ -38,6 +38,15 @@ const TelaAvaliaçao: React.FC<Props>= (Props) => {
                  <Icon.Button name="star"size={35} backgroundColor="#FFFF00"
                     onPress={() => {}}>  
                  </Icon.Button>
+                <TouchableOpacity onPress={() => {}}> 
+                <Icon name="star" size={35} color="#E0FFFF" />
+                </TouchableOpacity>
+                <TouchableOpacity onPress={() => {}}> 
+                <Icon name="star" size={35} color="#E0FFFF" />
+                </TouchableOpacity>
+                
+                 
+
                  
                 </View>
           </View>
