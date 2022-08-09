@@ -26,17 +26,19 @@ const item: Imagem [] = [
 
 type Props = NativeStackScreenProps<StackParams,'TelaAvaliaçao'>;
 const TelaAvaliaçao: React.FC<Props>= (Props) => {
+   
 
     const renderIMagems: ListRenderItem<Imagem> = ({item}) => {
+
+       ({} ? {} : {})
         return (
             <View>
-             <Image  style={styles.imagen}  />
+             <Image  style={styles.imagen} source={{uri: item.url}}/>
                 <View>
                  <Icon.Button name="star"size={35} backgroundColor="#FFFF00"
-                    onPress={() => alert('Login com Facebook')}>  
+                    onPress={() => {}}>  
                  </Icon.Button>
-                    <Icon name="star" size={35} color="#E0FFFF" />
-                    <Icon name="star" size={35} color="#FFFF00" />
+                 
                 </View>
           </View>
       )

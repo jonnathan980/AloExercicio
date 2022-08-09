@@ -51,11 +51,10 @@ const styles = StyleSheet.create({
      container01:{
         width:'100%',
         height:'100%',
-        backgroundColor:'#3CB371',
+        backgroundColor:'#EEEEEE',
         alignItems:'center',
     },
     container02:{
-       
         marginTop:20,
         alignItems:'center',
         padding: 20,
