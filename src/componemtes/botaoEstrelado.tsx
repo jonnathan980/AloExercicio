@@ -1,13 +1,17 @@
 import React = require("react")
 import { View } from "react-native"
 
-const botaoEstrelado: React.FC = () => {
+const BotaoEstrelado: React.FC = () => {
     return(
-        <View>
-            
+       <View>   
+         if{
+         pontos > 1
 
+         }
+            
+        
         </View>
     )
 }
 
-export default botaoEstrelado
+export default BotaoEstrelado

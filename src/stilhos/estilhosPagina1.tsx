@@ -55,11 +55,12 @@ const styles = StyleSheet.create({
         alignItems:'center',
     },
     container02:{
-        marginTop:20,
-        alignItems:'center',
+        marginTop:10,
+        alignItems:'stretch',
         padding: 20,
         marginVertical: 8,
         marginHorizontal: 16,
+        flexDirection:"row"
     },
 }) 
 
